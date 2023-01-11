@@ -1,0 +1,201 @@
+﻿title: Start
+tags:
+---
+Hey. (Click here to continue)
+Good to see this place is still standing.
+Ever since that evil witch cast that spell
+that sent the whole world into eternal winter...
+well, sometimes we just really need a hot brew.
+You're new though.
+I'm Mangy Medusa.
+I hope you make brews as good as your predessor.
+I require a brew that will perk up the girls.
+Tonic Tea I believe it's called.
+It should be one clover, one chalk, one cheese.
+Drag them over your cauldron and mix them together. Then serve it to me.
+===
+
+title: MangyMedusaFail
+tags:
+---
+A perfect brew has only one of each. That applies to all brews you know.
+===
+
+title: MangyMedusaSuccess
+tags:
+---
+Yes, this is perfect. Is this really your first time?
+…
+Seems you're short on supplies though, huh?
+Here, take some of my hair.
+Don't worry. I shed these naturally.
+I found these further up the road. You can take them too.
+Keep making good brews. This cafe is a beacon of hope for us, you know.
+Maybe one day even the witch might visit.
+Oh, remember, a perfect brew has only one of each ingredient!
+...
+
+<<CustomerOut Customer>>
+<<wait 1.5>>
+<<jump NewIngredients456>>
+
+===
+
+title: NewIngredients456
+tags:
+---
+<<AddIngredients01 Customer>>
+You can now use Monstrous Blood, Shakey Snakey and Dormant Egg in your brews.
+...
+<<SwapCustomer Customer>>
+<<CustomerIn Customer>>
+<<wait 1.5>>
+<<jump GargantuanGoblinIntro>>
+===
+
+title: GargantuanGoblinIntro
+tags:
+---
+I AM FEAR
+I AM GARGANTUAN GOBLIN
+I REQUIRE BIG BREW FOR BIG BEAST
+I LIKE ALL FLAVOURS
+AND SCARY THINGS
+PLEASE MAKE
+===
+
+title: GargantuanGoblinFail
+tags:
+---
+NO WANT. GIVE MONSTER BREW. WITH MEAT. AND ALL FLAVOURS.
+===
+
+title: GargantuanGoblinSuccess
+tags:
+---
+YES
+BIIIIIIIIIG
+OH
+YOU'RE NEW
+TAKE MY VICTIMS
+MAKE GOOD BREWS
+AH
+I HEAR THE WITCH HATES SPICE
+USE IT FOR EVIL
+<<CustomerOut Customer>>
+<<wait 1.5>>
+<<jump NewIngredients789>>
+===
+
+title: NewIngredients789
+tags:
+---
+<<AddIngredients02 Customer>>
+You can now use Vile Root, Ethical Eyes and Gracious Wings in your brews.
+<<SwapCustomer Customer>>
+<<CustomerIn Customer>>
+<<wait 1.5>>
+<<jump VeggieVampireIntro>>
+===
+
+title: VeggieVampireIntro
+tags:
+---
+HELLO. IT'S ME.
+I MEAN ... I NOT GOBLIN. I STAND IN FOR OTHER LATE CUSTOMERS
+I HOPE I DO OKAY. HERE GOES.
+*ahem*
+OH THANK GOD YOU'RE STILL HERE
+I'm the Veggie Vampire.
+I need B L O O D
+Sweet-tasting blood...
+nooooooooooooooow
+But you know, the good stuff
+Like the MORALLY sound kind
+I ain't no monster
+(I really need blood though)
+===
+
+title: VeggieVampireFail
+tags:
+---
+I can't eat that! I need something vegetarian! Use things LIKE meat.
+===
+
+title: VeggieVampireSuccess
+tags:
+---
+Ah that hits the spot 
+You know, there really is no excuse for murder with brews as good as these
+(Though I could murder that witch)
+Maybe this weird flower could help with your veggie brews.
+Wait, is this an arm? And a heart?! I don't know how those got in there.
+T E L L  N O - O N E.
+<<CustomerOut Customer>>
+<<wait 1.5>>
+<<jump NewIngredients101112>>
+===
+
+title: NewIngredients101112
+tags:
+---
+<<AddIngredients03 Customer>>
+You can now use Terrible Tentacle, Glitching Foxglove and Numbing Heart in your brews.
+<<SwapCustomer Customer>>
+<<CustomerIn Customer>>
+<<wait 1.5>>
+<<jump GuiltyGhost>>
+===
+
+
+title: GuiltyGhost
+tags:
+---
+HELLO AGAIN.
+*ahem*
+Oh no did I spook you?
+I'm so sorry
+I just…
+Everyone is always so sPoOkEd 
+I just want to hang out with people
+But when I say *b o o*
+the snow everywhere hides my body
+So when people do see me they think "oh no a ghost!"
+Do you have something that could make me look friendlier?
+I like spicy brews with calm ingredients
+[SERVE A BREW BELOW]
+===
+
+title: GuiltyGhostFail
+tags:
+---
+AAAAH! That's scary! Those eyes are cute though... maybe those, another spice and something calm...
+===
+
+title: GuiltyGhostSuccess
+tags:
+---
+Yessss
+I feel so friendly
+This is perfect thank you
+Boofore I go though, I should say
+Once I was standing out in the open snow
+The evil witch walked by and she didn't see me
+But I saw her using strange ingredients.
+I wonder if we could be friends now…
+<<CustomerOut Customer>>
+<<wait 1.5>>
+<<jump EndGame>>
+
+===
+
+
+title: EndGame
+tags:
+---
+That's the end of the game, well done!
+This game is a very early build and will be updated after the jam...
+to feature more customers, a record of brews made and their recipes...
+and also an end game encounter with the evil witch... if you develop enough of a reputation.
+Thanks for playing!
+===
